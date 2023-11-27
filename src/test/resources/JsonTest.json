@@ -1,0 +1,10 @@
+{
+  "name": "Smart Home Assistant",
+  "type": "device",
+  "functions": [
+    "Voice control",
+    "Environmental monitoring",
+    "Home automation",
+    "Integration with smart devices"
+  ]
+}
