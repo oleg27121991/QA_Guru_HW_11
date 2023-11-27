@@ -25,9 +25,9 @@ public class JsonTest {
             try (InputStreamReader reader = new InputStreamReader(resource)
             ) {
                 Json json = objectMapper.readValue(reader, Json.class);
-                assertThat(json.name).isEqualTo("Guru");
-                assertThat(json.type).isEqualTo("driver");
-                assertThat(json.functions).contains("Voice control",
+                assertThat(json.getName()).isEqualTo("Smart Home Assistant");
+                assertThat(json.getType()).isEqualTo("device");
+                assertThat(json.getFunctions()).contains("Voice control",
                             "Environmental monitoring",
                             "Home automation",
                             "Integration with smart devices");
